@@ -1,0 +1,9 @@
+main: com.brandon.ecoboosters.Main
+name: ecoBoosters
+version: 1.0
+author: iHells
+description: XP and Money booster plugin!
+commands:
+  boosters:
+    description: Open the boosters GUI!
+    aliases: [b, boosts]

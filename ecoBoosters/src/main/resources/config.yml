@@ -1,0 +1,83 @@
+duration: # The duration of the boosters in minutes
+  money-booster: 120
+  xp-booster: 120
+
+permission:
+  true: "&a&lYou can activate this booster!"
+  false: "&c&lNo permission!"
+
+main-gui:
+  name: "&6&lBoosters"
+  money-booster:
+    name: "&b&lMoney Boosters"
+    lore:
+      - ""
+      - "&7Click here to view &bmoney boosters&7!"
+      - "&7Available boosters are: &bx2&7, &bx3&7, &bx4"
+      - ""
+  xp-booster:
+    name: "&e&lXP Boosters"
+    lore:
+      - ""
+      - "&7Click here to view &exp boosters&7!"
+      - "&7Available boosters are: &ex2&7, &ex3&7, &ex4"
+      - ""
+
+money-gui:
+  name: "&b&lMoney Boosters"
+  cancel: "&cBack"
+  x2-name: "&b&lx2 Money Booster &7({duration})"
+  x2-lore:
+    - ""
+    - "&7Click here to activate a &bx2&7 booster!"
+    - "&7This booster will last &b{duration}"
+    - ""
+  x3-name: "&b&lx3 Money Booster &7({duration})"
+  x3-lore:
+    - ""
+    - "&7Click here to activate a &bx3&7 booster!"
+    - "&7This booster will last &b{duration}"
+    - ""
+  x4-name: "&b&lx4 Money Booster &7({duration})"
+  x4-lore:
+    - ""
+    - "&7Click here to activate a &bx4&7 booster!"
+    - "&7This booster will last &b{duration}"
+    - ""
+
+xp-gui:
+  name: "&e&lXP Boosters"
+  cancel: "&cBack"
+  x2-name: "&e&lx2 XP Booster &7({duration})"
+  x2-lore:
+    - ""
+    - "&7Click here to activate a &ex2&7 booster!"
+    - "&7This booster will last &e{duration}"
+    - ""
+  x3-name: "&e&lx3 XP Booster &7({duration})"
+  x3-lore:
+    - ""
+    - "&7Click here to activate a &ex3&7 booster!"
+    - "&7This booster will last &e{duration}"
+    - ""
+  x4-name: "&e&lx4 XP Booster &7({duration})"
+  x4-lore:
+    - ""
+    - "&7Click here to activate a &ex4&7 booster!"
+    - "&7This booster will last &e{duration}"
+    - ""
+
+messages:
+  no-permission: "&cYou are not allowed to do this!"
+  invalid-usage: "&cInvalid usage! Do /boosters"
+  invalid-player: "&cPlayer not found!"
+  on-activate: "&e&l(!) &fYou have enabled a &e{booster}&f for &e{duration}&f!"
+  on-expire: "&e&l(!) &fYour booster has expired!"
+  already-active-booster: "&e&l(!) &fYou already have an active booster!"
+  no-boosters: "&cThat player has no boosters to remove!"
+  on-reload: "&e&l(!) &fPlugin has been reloaded!"
+  on-giveall: "&e&l(!) &fAll players have been given a &e{booster}"
+  on-give: "&e&l(!) &f{player} has been given a &e{booster}"
+  on-remove: "&e&l(!) &fBooster removed successfully!"
+  on-receive: "&e&l(!) &fYou have been given a &e{booster}"
+  on-redeem: "&e&l(!) &fYou have redeemed a &e{booster}"
